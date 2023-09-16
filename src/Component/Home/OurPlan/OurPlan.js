@@ -4,7 +4,7 @@ import "./OurPlan.css";
 
 const OurPlan = () => {
     return (
-        <div className='PlanContainer container'>
+        <div className='planContainer container'>
             <div className='planTitle'>
                 <h2>Our Plan</h2>
                 <div>

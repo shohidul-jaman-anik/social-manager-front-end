@@ -92,7 +92,7 @@ h6 {
   }
 
   .container {
-    padding: 10px 0px 10px 0px;
+    padding: 0px 10px 0px 10px;
   }
 }
 
@@ -113,7 +113,7 @@ h6 {
     font-size: 18px;
   }
   .container {
-    padding: 60px 0px 60px 0px;
+    padding: 0px 60px 0px 60px;
   }
 }
 
@@ -134,7 +134,7 @@ h6 {
     font-size: 18px;
   }
   .container {
-    padding: 95px 0px 95px 0px;
+    padding: 0px 95px 0px 95px;
   }
 }
 

@@ -21,11 +21,14 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .testimonialContainer {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        justify-content: space-between !important;
-        row-gap: 20px;
-        align-items: center;
-      }
+  .testimonialContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between !important;
+    row-gap: 20px;
+    align-items: center;
+  }
+}
+@media only screen and (min-device-width: 778px) and (max-device-width: 1034px) {
+    
 }

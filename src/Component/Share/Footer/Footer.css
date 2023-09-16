@@ -1,0 +1,28 @@
+.footerContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: end !important;
+  column-gap: 30px;
+  /* align-items: center; */
+  background-color: #012b6d;
+  color: white;
+  padding: 50px 50px;
+}
+.footerLink {
+  padding-left: 20px;
+  list-style: none;
+}
+@media only screen and (max-width: 600px) {
+  .footerContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: end !important;
+    row-gap: 60px;
+    padding: 30px 30px;
+  }
+}
+@media only screen and (min-device-width: 778px) and (max-device-width: 1034px) {
+  .footerContainer {
+    padding: 30px 30px;
+  }
+}
