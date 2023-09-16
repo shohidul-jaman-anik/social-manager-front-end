@@ -1,6 +1,31 @@
+.testimonialTitle {
+  color: #012b6d;
+  text-align: center;
+  padding-top: 20px;
+}
+.testimonialMain {
+  background-color: #eee;
+}
 .testimonialContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-between !important;
+  column-gap: 20px;
   align-items: center;
+}
+.clientImg {
+  width: 107px;
+  height: 106px;
+}
+.testimonialRighCol {
+}
+
+@media only screen and (max-width: 600px) {
+    .testimonialContainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between !important;
+        row-gap: 20px;
+        align-items: center;
+      }
 }

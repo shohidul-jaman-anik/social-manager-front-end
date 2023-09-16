@@ -1,0 +1,62 @@
+.planTitle {
+  text-align: center;
+}
+.planContainer {
+  background-color: #f5f5f5;
+}
+.planCard {
+  width: 390px;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  transition: background-color 0.5s ease-in-out;
+}
+.planCardContainer {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  padding-top: 60px;
+}
+.planCard:hover {
+  background-color: rgb(255, 95, 192);
+}
+.planDescription {
+  padding-top: 30px;
+  font-size: 24px;
+}
+.pricePlan1 {
+  padding-top: 95px;
+  padding-bottom: 30px;
+}
+.pricePlan {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.pricePlan3 {
+  padding-top: 95px;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .planCardContainer {
+    display: inline-block;
+    justify-content: center !important;
+    align-items: center;
+    padding-top: 60px;
+  }
+  .planCard {
+   margin-bottom: 30px;
+  }
+
+  .pricePlan1 {
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+  .pricePlan {
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+  .pricePlan3 {
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+}
