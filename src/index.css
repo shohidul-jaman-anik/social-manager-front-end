@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+img {
+  width: 100%;
+  display: block;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.pink {
+  color: #e744a6;
+}
+.navyBlue {
+  color: #012b6d;
+}
+.bgPink {
+  color: #e744a6;
+}
+.bgNavyBlue {
+  color: #012b6d;
+}
+
+h1 {
+  /* color: #012b6d; */
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 743;
+  line-height: normal;
+}
+h2 {
+  /* color: #012b6d; */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+h3 {
+ 
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+h4 {
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h6 {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.container {
+  padding: 95px 0px 95px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 10px 0px 10px 0px;
+  }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 778px) {
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  .container {
+    padding: 60px 0px 60px 0px;
+  }
+}
+
+@media only screen and (min-device-width: 778px) and (max-device-width: 1034px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  .container {
+    padding: 95px 0px 95px 0px;
+  }
+}
+
+@media only screen and (min-device-width: 1034px) and (max-device-width: 1450px) {
+  .footerContainer {
+    padding: 110px 0px 110px 0px !important;
+  }
+}

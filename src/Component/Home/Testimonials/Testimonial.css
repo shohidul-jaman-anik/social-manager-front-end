@@ -1,0 +1,6 @@
+.testimonialContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between !important;
+  align-items: center;
+}
