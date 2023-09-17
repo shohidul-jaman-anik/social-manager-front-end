@@ -8,13 +8,17 @@ const Testimonials = () => {
         <div className='testimonialMain'>
             <h2 className='testimonialTitle'>Testimonials</h2>
             <div className='testimonialContainer '>
-                <div>
-                    <img className='clientImg' src={client1} alt="" srcset="" />
+                <div className="testimonialLeftCol">
+                    <div className='ClientImgDiv'> 
+                      <img className='clientImg' src={client1} alt="" srcset="" />
+                    </div>
                     <h3>Martha V.</h3>
                     <p>CEO of NCA Network</p>
-                    <p>“Testimonial Text Here Testimonial Text Here Testimonial Text Here
-                        Testimonial Text Here Testimonial Text Here Testimonial Text Here
-                        Testimonial Text Here”</p>
+                    <p>
+                    <p>Testimonial Text Here Testimonial Text Here Testimonial Text Her </p> 
+                    <p>Testimonial Text Here Testimonial Text Here Testimonial Text Her</p>
+                    <p>Testimonial Text Here Testimonial Text Here Testimonial Text Her</p>
+                    </p>
                 </div>
                 <div className='testimonialRighCol'>
                     <img src={mobileImg} alt="" srcset="" />

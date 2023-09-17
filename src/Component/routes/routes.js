@@ -3,8 +3,6 @@ import Main from "../../Layout/Main/Main";
 import About from "../About/About";
 import Home from "../Home/Home/Home";
 
-
-
 const routes = createBrowserRouter([
     {
         path: "/",

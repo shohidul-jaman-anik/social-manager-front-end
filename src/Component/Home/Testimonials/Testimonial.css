@@ -7,8 +7,9 @@
   background-color: #eee;
 }
 .testimonialContainer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  display: flex;
   justify-content: space-between !important;
   column-gap: 20px;
   align-items: center;
@@ -16,8 +17,17 @@
 .clientImg {
   width: 107px;
   height: 106px;
+  text-align:center;
+}
+.ClientImgDiv{
+  text-align:center;
 }
 .testimonialRighCol {
+  text-align:end;
+}
+.testimonialLeftCol h3 img p{
+  padding-left:85px;
+  text-align:center;
 }
 
 @media only screen and (max-width: 600px) {
